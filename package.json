@@ -1,0 +1,20 @@
+{
+  "name": "books-rest-api",
+  "version": "1.0.0",
+  "description": "Simple App to Store a information about Books using CRUD operation",
+  "main": "book-api.js",
+  "scripts": {
+    "start": "nodemon book-api.js"
+  },
+  "author": "Pukar Upreti",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
